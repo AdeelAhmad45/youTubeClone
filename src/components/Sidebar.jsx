@@ -12,15 +12,15 @@ import {
 function Sidebar() {
     const mainLinks = [
         {
-            icon: <MdHomeFilled />,
+            icon: <MdHomeFilled className='text-xl' />,
             name: "Home"
         },
         {
-            icon: <MdVideocam />,
+            icon: <MdVideocam className='text-xl' />,
             name: 'Shorts'
         },
         {
-            icon: <MdSubscriptions />,
+            icon: <MdSubscriptions className='text-xl' />,
             name: "Subcription"
         }
        
@@ -28,15 +28,15 @@ function Sidebar() {
 
     const otherLinks = [
         {
-            icon: <MdHistory />,
+            icon: <MdHistory className='text-xl' />,
             name: "History"
         },
         {
-            icon: <MdOutlineWatchLater />,
+            icon: <MdOutlineWatchLater className='text-xl' />,
             name: "Watch Later"
         },
         {
-            icon: <BiLike />,
+            icon: <BiLike className='text-xl' />,
             name: "Liked"
         }
 
