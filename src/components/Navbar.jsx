@@ -10,7 +10,7 @@ import { BsBell } from "react-icons/bs";
 function Navbar() {
   return (
     <div className="flex justify-between items-center bg-[#212121] px-14 h-14 opacity-95 sticky text-white">
-      <div className="flex gap-6 text-white items-center justify-center text-2xl">
+      <div className="flex gap-6 items-center justify-center text-2xl">
         <div>
           <GiHamburgerMenu />
         </div>
