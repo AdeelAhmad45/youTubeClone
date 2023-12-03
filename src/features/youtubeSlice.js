@@ -1,5 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-// import { getHomePageVideos } from "../redux/reducers/getHomePageVideos";
+import { getHomePageVideos } from "../redux/reducers/getHomePageVideos";
 
 
 
@@ -18,11 +18,11 @@ const youtubeSlice = createSlice( {
     reducers: {
 
     },
-    // extraReducers:(builder) => {
-    //     builder.addCase(getHomePageVideos.fulfilled,(state, action) => {
+    extraReducers:(builder) => {
+        builder.addCase(getHomePageVideos.fulfilled,(state, action) => {
 
-    //     })
-    // }
+        })
+    }
 })
 
 export default youtubeSlice.reducer
